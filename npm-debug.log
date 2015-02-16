@@ -1,0 +1,556 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'opencv' ]
+2 info using npm@2.2.0
+3 info using node@v0.10.35
+4 silly cache add args [ 'opencv', null ]
+5 verbose cache add spec opencv
+6 silly cache add parsed spec { raw: 'opencv',
+6 silly cache add   scope: null,
+6 silly cache add   name: 'opencv',
+6 silly cache add   rawSpec: '',
+6 silly cache add   spec: '*',
+6 silly cache add   type: 'range' }
+7 verbose addNamed opencv@*
+8 silly addNamed semver.valid null
+9 silly addNamed semver.validRange *
+10 silly addNameRange { name: 'opencv', range: '*', hasData: false }
+11 silly mapToRegistry name opencv
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/opencv
+15 verbose addNameRange registry:https://registry.npmjs.org/opencv not in flight; fetching
+16 verbose request uri https://registry.npmjs.org/opencv
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 02:10:48
+19 verbose request id ff8dde6f67d4e2cc
+20 verbose etag "CEELBFZPPF7QFSNETYIFRL3QA"
+21 http request GET https://registry.npmjs.org/opencv
+22 http 304 https://registry.npmjs.org/opencv
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 18 Jan 2015 07:10:48 GMT',
+23 silly get     server: 'Apache',
+23 silly get     via: '1.1 varnish',
+23 silly get     'last-modified': 'Sun, 18 Jan 2015 07:10:48 GMT',
+23 silly get     'cache-control': 'max-age=60',
+23 silly get     etag: '"CEELBFZPPF7QFSNETYIFRL3QA"',
+23 silly get     age: '0',
+23 silly get     'x-served-by': 'cache-iad2145-IAD',
+23 silly get     'x-cache': 'MISS',
+23 silly get     'x-cache-hits': '0',
+23 silly get     'x-timer': 'S1421565048.522758,VS0,VE57',
+23 silly get     vary: 'Accept',
+23 silly get     'content-length': '0',
+23 silly get     'keep-alive': 'timeout=10, max=50',
+23 silly get     connection: 'Keep-Alive' } ]
+24 verbose etag https://registry.npmjs.org/opencv from cache
+25 silly addNameRange number 2 { name: 'opencv', range: '*', hasData: true }
+26 silly addNameRange versions [ 'opencv',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '0.0.6',
+26 silly addNameRange     '0.0.7',
+26 silly addNameRange     '0.0.8',
+26 silly addNameRange     '0.0.9',
+26 silly addNameRange     '0.0.10',
+26 silly addNameRange     '0.0.11',
+26 silly addNameRange     '0.0.12',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '0.3.0',
+26 silly addNameRange     '0.3.1',
+26 silly addNameRange     '0.4.0',
+26 silly addNameRange     '0.5.0',
+26 silly addNameRange     '0.6.0',
+26 silly addNameRange     '0.7.0',
+26 silly addNameRange     '1.0.0' ] ]
+27 verbose addNamed opencv@1.0.0
+28 silly addNamed semver.valid 1.0.0
+29 silly addNamed semver.validRange 1.0.0
+30 silly cache afterAdd opencv@1.0.0
+31 verbose afterAdd /Users/Vasuimports/.npm/opencv/1.0.0/package/package.json not in flight; writing
+32 verbose afterAdd /Users/Vasuimports/.npm/opencv/1.0.0/package/package.json written
+33 silly install resolved [ { name: 'opencv',
+33 silly install resolved     description: 'Node Bindings to OpenCV',
+33 silly install resolved     author: { name: 'Peter Braden', email: 'peterbraden@peterbraden.co.uk' },
+33 silly install resolved     dependencies: { buffers: '0.1.1', nan: '^1.3.0' },
+33 silly install resolved     version: '1.0.0',
+33 silly install resolved     devDependencies: { vows: '*' },
+33 silly install resolved     license: 'MIT',
+33 silly install resolved     scripts:
+33 silly install resolved      { build: 'node-gyp build',
+33 silly install resolved        test: 'vows test/unit.js',
+33 silly install resolved        install: 'node-gyp rebuild' },
+33 silly install resolved     keywords: [ 'opencv', 'computer', 'vision', 'quadrocopter' ],
+33 silly install resolved     main: './lib/opencv',
+33 silly install resolved     repository:
+33 silly install resolved      { type: 'git',
+33 silly install resolved        url: 'https://github.com/peterbraden/node-opencv.git' },
+33 silly install resolved     engines: { node: '>=0.10' },
+33 silly install resolved     gypfile: true,
+33 silly install resolved     bugs: { url: 'https://github.com/peterbraden/node-opencv/issues' },
+33 silly install resolved     homepage: 'https://github.com/peterbraden/node-opencv',
+33 silly install resolved     _id: 'opencv@1.0.0',
+33 silly install resolved     dist:
+33 silly install resolved      { shasum: 'eb74ea8cb3588b4723ac3efd4094257d9cd65388',
+33 silly install resolved        tarball: 'http://registry.npmjs.org/opencv/-/opencv-1.0.0.tgz' },
+33 silly install resolved     _from: 'opencv@*',
+33 silly install resolved     _npmVersion: '1.4.3',
+33 silly install resolved     _npmUser: { name: 'peterbraden', email: 'peterbraden@peterbraden.co.uk' },
+33 silly install resolved     maintainers: [ [Object] ],
+33 silly install resolved     directories: {},
+33 silly install resolved     _shasum: 'eb74ea8cb3588b4723ac3efd4094257d9cd65388',
+33 silly install resolved     _resolved: 'https://registry.npmjs.org/opencv/-/opencv-1.0.0.tgz',
+33 silly install resolved     readme: 'ERROR: No README data found!' } ]
+34 info install opencv@1.0.0 into /Users/Vasuimports/Desktop/PennApps/ardrone-webflight
+35 info installOne opencv@1.0.0
+36 verbose installOne of opencv to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight not in flight; installing
+37 verbose lock using /Users/Vasuimports/.npm/_locks/opencv-00213934789a389c.lock for /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+38 silly install write writing opencv 1.0.0 to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+39 silly cache addNamed cb opencv@1.0.0
+40 verbose unbuild node_modules/opencv
+41 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+42 verbose tar unpack /Users/Vasuimports/.npm/opencv/1.0.0/package.tgz
+43 verbose tar unpacking to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+44 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm extractEntry .npmignore
+48 silly gunzTarPerm extractEntry README.md
+49 silly gunzTarPerm extractEntry .binding.gyp.un~
+50 silly gunzTarPerm extractEntry ..travis.yml.un~
+51 silly gunzTarPerm extractEntry .package.json.un~
+52 silly gunzTarPerm extractEntry .travis.yml
+53 silly gunzTarPerm extractEntry CHANGELOG.md
+54 silly gunzTarPerm extractEntry Dockerfile
+55 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+56 silly gunzTarPerm extractEntry .CHANGELOG.md.un~
+57 silly gunzTarPerm extractEntry binding.gyp
+58 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_small.xml
+59 silly gunzTarPerm extractEntry data/haarcascade_eye.xml
+60 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt.xml
+61 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt2.xml
+62 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt_tree.xml
+63 silly gunzTarPerm extractEntry data/haarcascade_frontalface_default.xml
+64 silly gunzTarPerm extractEntry data/haarcascade_fullbody.xml
+65 silly gunzTarPerm extractEntry data/haarcascade_lefteye_2splits.xml
+66 silly gunzTarPerm extractEntry data/haarcascade_lowerbody.xml
+67 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_big.xml
+68 silly gunzTarPerm extractEntry data/haarcascade_eye_tree_eyeglasses.xml
+69 silly gunzTarPerm extractEntry data/haarcascade_mcs_lefteye.xml
+70 silly gunzTarPerm extractEntry data/haarcascade_mcs_mouth.xml
+71 silly gunzTarPerm extractEntry data/haarcascade_mcs_nose.xml
+72 silly gunzTarPerm extractEntry data/haarcascade_mcs_righteye.xml
+73 silly gunzTarPerm extractEntry data/haarcascade_mcs_upperbody.xml
+74 silly gunzTarPerm extractEntry data/haarcascade_profileface.xml
+75 silly gunzTarPerm extractEntry data/haarcascade_righteye_2splits.xml
+76 silly gunzTarPerm extractEntry data/haarcascade_upperbody.xml
+77 silly gunzTarPerm extractEntry data/hogcascade_cars_sideview.xml
+78 silly gunzTarPerm extractEntry data/lbpcascade_cars_frontbackview.xml
+79 silly gunzTarPerm extractEntry examples/warp-image.js
+80 silly gunzTarPerm extractEntry examples/take-face-pics.js
+81 silly gunzTarPerm extractEntry examples/salt.js
+82 silly gunzTarPerm extractEntry examples/color-filter.js
+83 silly gunzTarPerm extractEntry examples/contours.js
+84 silly gunzTarPerm extractEntry examples/car-detection.js
+85 silly gunzTarPerm extractEntry examples/detect-shapes.js
+86 silly gunzTarPerm extractEntry examples/addweighted.js
+87 silly gunzTarPerm extractEntry examples/face-detection.js
+88 silly gunzTarPerm extractEntry examples/face-proxy.js
+89 silly gunzTarPerm extractEntry examples/quad-crosses.js
+90 silly gunzTarPerm extractEntry examples/camera.js
+91 silly gunzTarPerm extractEntry examples/motion-track.js
+92 silly gunzTarPerm extractEntry examples/convert-image.js
+93 silly gunzTarPerm extractEntry examples/face-detection-rectangle.js
+94 silly gunzTarPerm extractEntry examples/make-example-files.sh
+95 silly gunzTarPerm extractEntry examples/files/car1.jpg
+96 silly gunzTarPerm extractEntry examples/files/car2.jpg
+97 silly gunzTarPerm extractEntry examples/files/coin1.jpg
+98 silly gunzTarPerm extractEntry examples/files/coin2.jpg
+99 silly gunzTarPerm extractEntry examples/files/mona.png
+100 silly gunzTarPerm extractEntry examples/files/motion.mov
+101 silly gunzTarPerm extractEntry examples/files/over_text.png
+102 silly gunzTarPerm extractEntry examples/files/quads.jpg
+103 silly gunzTarPerm extractEntry examples/files/shapes.jpg
+104 silly gunzTarPerm extractEntry examples/files/stuff.png
+105 silly gunzTarPerm extractEntry examples/coin1-with-text.jpg
+106 silly gunzTarPerm extractEntry examples/coffeescript/camera.coffee
+107 silly gunzTarPerm extractEntry examples/coffeescript/blend-images.coffee
+108 silly gunzTarPerm extractEntry examples/coffeescript/camera-face-detection.coffee
+109 silly gunzTarPerm extractEntry examples/coffeescript/camera-gausian-effect.coffee
+110 silly gunzTarPerm extractEntry examples/coffeescript/camera-gaussian-effect.coffee
+111 silly gunzTarPerm extractEntry examples/coffeescript/camera-face-detect-max-frames.coffee
+112 silly gunzTarPerm extractEntry examples/coffeescript/haarcascades/haarcascade_frontalface_alt.xml
+113 silly gunzTarPerm extractEntry examples/coffeescript/image-basic-shapes.coffee
+114 silly gunzTarPerm extractEntry examples/coffeescript/image-load-display.coffee
+115 silly gunzTarPerm extractEntry examples/coffeescript/image-load-modify-display.coffee
+116 silly gunzTarPerm extractEntry examples/coffeescript/images/linux-logo.png
+117 silly gunzTarPerm extractEntry examples/coffeescript/images/mona.png
+118 silly gunzTarPerm extractEntry examples/coffeescript/images/windows-logo.png
+119 silly gunzTarPerm extractEntry examples/.convert_image.js.un~
+120 silly gunzTarPerm extractEntry index.html
+121 silly gunzTarPerm extractEntry lib/bindings.js
+122 silly gunzTarPerm extractEntry lib/opencv.js
+123 silly gunzTarPerm extractEntry lib/.bindings.js.un~
+124 silly gunzTarPerm extractEntry .README.md.un~
+125 silly gunzTarPerm extractEntry smoke/smoketest.js
+126 silly gunzTarPerm extractEntry smoke/smoke.sh
+127 silly gunzTarPerm extractEntry src/Constants.h
+128 silly gunzTarPerm extractEntry src/.BackgroundSubtractor.cc.un~
+129 silly gunzTarPerm extractEntry src/.Contours.cc.un~
+130 silly gunzTarPerm extractEntry src/.Contours.h.un~
+131 silly gunzTarPerm extractEntry src/.HighGUI.cc.un~
+132 silly gunzTarPerm extractEntry src/.Matrix.cc.un~
+133 silly gunzTarPerm extractEntry src/.Matrix.h.un~
+134 silly gunzTarPerm extractEntry src/.OpenCV.cc.un~
+135 silly gunzTarPerm extractEntry src/.VideoCaptureWrap.cc.un~
+136 silly gunzTarPerm extractEntry src/BackgroundSubtractor.cc
+137 silly gunzTarPerm extractEntry src/BackgroundSubtractor.h
+138 silly gunzTarPerm extractEntry src/CamShift.cc
+139 silly gunzTarPerm extractEntry src/CamShift.h
+140 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.cc
+141 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.h
+142 silly gunzTarPerm extractEntry src/Constants.cc
+143 silly gunzTarPerm extractEntry src/.CascadeClassifierWrap.cc.un~
+144 silly gunzTarPerm extractEntry src/Contours.cc
+145 silly gunzTarPerm extractEntry src/Contours.h
+146 silly gunzTarPerm extractEntry src/FaceRecognizer.cc
+147 silly gunzTarPerm extractEntry src/FaceRecognizer.h
+148 silly gunzTarPerm extractEntry src/HighGUI.cc
+149 silly gunzTarPerm extractEntry src/HighGUI.h
+150 silly gunzTarPerm extractEntry src/Matrix.cc
+151 silly gunzTarPerm extractEntry src/Matrix.h
+152 silly gunzTarPerm extractEntry src/OpenCV.cc
+153 silly gunzTarPerm extractEntry src/OpenCV.h
+154 silly gunzTarPerm extractEntry src/Point.cc
+155 silly gunzTarPerm extractEntry src/Point.h
+156 silly gunzTarPerm extractEntry src/VideoCaptureWrap.cc
+157 silly gunzTarPerm extractEntry src/VideoCaptureWrap.h
+158 silly gunzTarPerm extractEntry src/init.cc
+159 silly gunzTarPerm extractEntry test/unit.js
+160 info preinstall opencv@1.0.0
+161 silly prepareForInstallMany adding buffers@0.1.1 from opencv dependencies
+162 silly prepareForInstallMany adding nan@^1.3.0 from opencv dependencies
+163 silly cache add args [ 'buffers@0.1.1', null ]
+164 verbose cache add spec buffers@0.1.1
+165 silly cache add args [ 'nan@^1.3.0', null ]
+166 verbose cache add spec nan@^1.3.0
+167 silly cache add parsed spec { raw: 'buffers@0.1.1',
+167 silly cache add   scope: null,
+167 silly cache add   name: 'buffers',
+167 silly cache add   rawSpec: '0.1.1',
+167 silly cache add   spec: '0.1.1',
+167 silly cache add   type: 'version' }
+168 verbose addNamed buffers@0.1.1
+169 silly addNamed semver.valid 0.1.1
+170 silly addNamed semver.validRange 0.1.1
+171 silly mapToRegistry name buffers
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/buffers
+175 verbose addNameVersion registry:https://registry.npmjs.org/buffers not in flight; fetching
+176 silly cache add parsed spec { raw: 'nan@^1.3.0',
+176 silly cache add   scope: null,
+176 silly cache add   name: 'nan',
+176 silly cache add   rawSpec: '^1.3.0',
+176 silly cache add   spec: '>=1.3.0 <2.0.0',
+176 silly cache add   type: 'range' }
+177 verbose addNamed nan@>=1.3.0 <2.0.0
+178 silly addNamed semver.valid null
+179 silly addNamed semver.validRange >=1.3.0 <2.0.0
+180 silly addNameRange { name: 'nan', range: '>=1.3.0 <2.0.0', hasData: false }
+181 silly mapToRegistry name nan
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/nan
+185 verbose addNameRange registry:https://registry.npmjs.org/nan not in flight; fetching
+186 verbose request uri https://registry.npmjs.org/buffers
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 02:10:49
+189 verbose etag "6US1T15MG1HF6E91ZD20XM9G7"
+190 http request GET https://registry.npmjs.org/buffers
+191 verbose request uri https://registry.npmjs.org/nan
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 02:10:49
+194 verbose etag "CEMZ6OEW2VZUAG4UWGWLIIR3C"
+195 http request GET https://registry.npmjs.org/nan
+196 http 304 https://registry.npmjs.org/buffers
+197 silly get cb [ 304,
+197 silly get   { date: 'Sun, 18 Jan 2015 07:10:50 GMT',
+197 silly get     server: 'Apache',
+197 silly get     via: '1.1 varnish',
+197 silly get     'last-modified': 'Sun, 18 Jan 2015 07:10:50 GMT',
+197 silly get     'cache-control': 'max-age=60',
+197 silly get     etag: '"6US1T15MG1HF6E91ZD20XM9G7"',
+197 silly get     age: '32',
+197 silly get     'x-served-by': 'cache-iad2130-IAD',
+197 silly get     'x-cache': 'HIT',
+197 silly get     'x-cache-hits': '1',
+197 silly get     'x-timer': 'S1421565050.044906,VS0,VE0',
+197 silly get     vary: 'Accept',
+197 silly get     'content-length': '0',
+197 silly get     'keep-alive': 'timeout=10, max=50',
+197 silly get     connection: 'Keep-Alive' } ]
+198 verbose etag https://registry.npmjs.org/buffers from cache
+199 http 304 https://registry.npmjs.org/nan
+200 silly get cb [ 304,
+200 silly get   { date: 'Sun, 18 Jan 2015 07:10:50 GMT',
+200 silly get     server: 'Apache',
+200 silly get     via: '1.1 varnish',
+200 silly get     'last-modified': 'Sun, 18 Jan 2015 07:10:50 GMT',
+200 silly get     'cache-control': 'max-age=60',
+200 silly get     etag: '"CEMZ6OEW2VZUAG4UWGWLIIR3C"',
+200 silly get     age: '6',
+200 silly get     'x-served-by': 'cache-iad2137-IAD',
+200 silly get     'x-cache': 'HIT',
+200 silly get     'x-cache-hits': '1',
+200 silly get     'x-timer': 'S1421565050.045248,VS0,VE0',
+200 silly get     vary: 'Accept',
+200 silly get     'content-length': '0',
+200 silly get     'keep-alive': 'timeout=10, max=50',
+200 silly get     connection: 'Keep-Alive' } ]
+201 verbose etag https://registry.npmjs.org/nan from cache
+202 silly addNameRange number 2 { name: 'nan', range: '>=1.3.0 <2.0.0', hasData: true }
+203 silly addNameRange versions [ 'nan',
+203 silly addNameRange   [ '0.3.0-wip',
+203 silly addNameRange     '0.3.0-wip2',
+203 silly addNameRange     '0.3.0',
+203 silly addNameRange     '0.3.1',
+203 silly addNameRange     '0.3.2',
+203 silly addNameRange     '0.4.0',
+203 silly addNameRange     '0.4.1',
+203 silly addNameRange     '0.4.2',
+203 silly addNameRange     '0.4.3',
+203 silly addNameRange     '0.4.4',
+203 silly addNameRange     '0.5.0',
+203 silly addNameRange     '0.5.1',
+203 silly addNameRange     '0.5.2',
+203 silly addNameRange     '0.6.0',
+203 silly addNameRange     '0.7.0',
+203 silly addNameRange     '0.7.1',
+203 silly addNameRange     '0.8.0',
+203 silly addNameRange     '1.0.0',
+203 silly addNameRange     '1.1.0',
+203 silly addNameRange     '1.1.1',
+203 silly addNameRange     '1.1.2',
+203 silly addNameRange     '1.2.0',
+203 silly addNameRange     '1.3.0',
+203 silly addNameRange     '1.4.0',
+203 silly addNameRange     '1.4.1',
+203 silly addNameRange     '1.5.0',
+203 silly addNameRange     '1.4.2',
+203 silly addNameRange     '1.4.3',
+203 silly addNameRange     '1.5.1' ] ]
+204 verbose addNamed nan@1.5.1
+205 silly addNamed semver.valid 1.5.1
+206 silly addNamed semver.validRange 1.5.1
+207 silly cache afterAdd buffers@0.1.1
+208 verbose afterAdd /Users/Vasuimports/.npm/buffers/0.1.1/package/package.json not in flight; writing
+209 silly cache afterAdd nan@1.5.1
+210 verbose afterAdd /Users/Vasuimports/.npm/nan/1.5.1/package/package.json not in flight; writing
+211 verbose afterAdd /Users/Vasuimports/.npm/nan/1.5.1/package/package.json written
+212 verbose afterAdd /Users/Vasuimports/.npm/buffers/0.1.1/package/package.json written
+213 silly install resolved [ { name: 'nan',
+213 silly install resolved     version: '1.5.1',
+213 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+213 silly install resolved     main: 'include_dirs.js',
+213 silly install resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+213 silly install resolved     scripts:
+213 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+213 silly install resolved        'rebuild-tests': 'node-gyp rebuild --directory test' },
+213 silly install resolved     contributors:
+213 silly install resolved      [ [Object],
+213 silly install resolved        [Object],
+213 silly install resolved        [Object],
+213 silly install resolved        [Object],
+213 silly install resolved        [Object],
+213 silly install resolved        [Object],
+213 silly install resolved        [Object] ],
+213 silly install resolved     devDependencies:
+213 silly install resolved      { bindings: '~1.2.1',
+213 silly install resolved        'node-gyp': '~1.0.2',
+213 silly install resolved        tap: '~0.4.13',
+213 silly install resolved        xtend: '~4.0.0' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     gitHead: 'd05708b0aa6afebe9363b9f34cc5958d2af771f3',
+213 silly install resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+213 silly install resolved     homepage: 'https://github.com/rvagg/nan',
+213 silly install resolved     _id: 'nan@1.5.1',
+213 silly install resolved     _shasum: 'a565e4d4143cb49afdd3fe07e4c8aeaa1e7e0603',
+213 silly install resolved     _from: 'nan@>=1.3.0 <2.0.0',
+213 silly install resolved     _npmVersion: '2.1.6',
+213 silly install resolved     _nodeVersion: '0.10.33',
+213 silly install resolved     _npmUser: { name: 'rvagg', email: 'rod@vagg.org' },
+213 silly install resolved     maintainers: [ [Object], [Object] ],
+213 silly install resolved     dist:
+213 silly install resolved      { shasum: 'a565e4d4143cb49afdd3fe07e4c8aeaa1e7e0603',
+213 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-1.5.1.tgz' },
+213 silly install resolved     directories: {},
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-1.5.1.tgz',
+213 silly install resolved     readme: 'ERROR: No README data found!' },
+213 silly install resolved   { name: 'buffers',
+213 silly install resolved     description: 'Treat a collection of Buffers as a single contiguous partially mutable Buffer.',
+213 silly install resolved     version: '0.1.1',
+213 silly install resolved     repository:
+213 silly install resolved      { type: 'git',
+213 silly install resolved        url: 'git://github.com/substack/node-buffers.git' },
+213 silly install resolved     author:
+213 silly install resolved      { name: 'James Halliday',
+213 silly install resolved        email: 'mail@substack.net',
+213 silly install resolved        url: 'http://substack.net' },
+213 silly install resolved     main: './index',
+213 silly install resolved     scripts: { test: 'expresso' },
+213 silly install resolved     engines: { node: '>=0.2.0' },
+213 silly install resolved     _npmJsonOpts:
+213 silly install resolved      { file: '/home/substack/.npm/buffers/0.1.1/package/package.json',
+213 silly install resolved        wscript: false,
+213 silly install resolved        contributors: false,
+213 silly install resolved        serverjs: false },
+213 silly install resolved     _id: 'buffers@0.1.1',
+213 silly install resolved     dependencies: {},
+213 silly install resolved     devDependencies: {},
+213 silly install resolved     _engineSupported: true,
+213 silly install resolved     _npmVersion: '1.0.30',
+213 silly install resolved     _nodeVersion: 'v0.4.12',
+213 silly install resolved     _defaultsLoaded: true,
+213 silly install resolved     dist:
+213 silly install resolved      { shasum: 'b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb',
+213 silly install resolved        tarball: 'http://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz' },
+213 silly install resolved     maintainers: [ [Object] ],
+213 silly install resolved     directories: {},
+213 silly install resolved     _shasum: 'b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb',
+213 silly install resolved     _from: 'buffers@0.1.1',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/buffers/-/buffers-0.1.1.tgz',
+213 silly install resolved     bugs: { url: 'https://github.com/substack/node-buffers/issues' },
+213 silly install resolved     readme: 'ERROR: No README data found!',
+213 silly install resolved     homepage: 'https://github.com/substack/node-buffers' } ]
+214 info install nan@1.5.1 into /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+215 info install buffers@0.1.1 into /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+216 info installOne nan@1.5.1
+217 verbose installOne of nan to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv not in flight; installing
+218 info installOne buffers@0.1.1
+219 verbose installOne of buffers to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv not in flight; installing
+220 verbose lock using /Users/Vasuimports/.npm/_locks/nan-bd83228a4d7d37cc.lock for /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+221 verbose lock using /Users/Vasuimports/.npm/_locks/buffers-66effc968c1b7cdb.lock for /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+222 silly install write writing nan 1.5.1 to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+223 silly cache addNamed cb nan@1.5.1
+224 verbose unbuild node_modules/opencv/node_modules/nan
+225 silly install write writing buffers 0.1.1 to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+226 silly cache addNamed cb buffers@0.1.1
+227 verbose unbuild node_modules/opencv/node_modules/buffers
+228 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+229 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+230 verbose tar unpack /Users/Vasuimports/.npm/nan/1.5.1/package.tgz
+231 verbose tar unpacking to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+232 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+233 verbose tar unpack /Users/Vasuimports/.npm/buffers/0.1.1/package.tgz
+234 verbose tar unpacking to /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+235 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+236 silly gunzTarPerm modes [ '755', '644' ]
+237 silly gunzTarPerm modes [ '755', '644' ]
+238 silly gunzTarPerm extractEntry package.json
+239 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+240 silly gunzTarPerm extractEntry index.js
+241 silly gunzTarPerm extractEntry README.md
+242 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+243 silly gunzTarPerm extractEntry package.json
+244 silly gunzTarPerm extractEntry README.markdown
+245 silly gunzTarPerm extractEntry include_dirs.js
+246 silly gunzTarPerm extractEntry LICENSE.md
+247 silly gunzTarPerm extractEntry .dntrc
+248 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+249 silly gunzTarPerm extractEntry appveyor.yml
+250 silly gunzTarPerm extractEntry examples/slice.js
+251 silly gunzTarPerm extractEntry examples/splice.js
+252 silly gunzTarPerm extractEntry test/buffers.js
+253 silly gunzTarPerm extractEntry nan.h
+254 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+255 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+256 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+257 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+258 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+259 silly gunzTarPerm extractEntry nan_new.h
+260 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+261 info preinstall buffers@0.1.1
+262 silly install resolved []
+263 verbose about to build /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+264 info build /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+265 verbose linkStuff [ false,
+265 verbose linkStuff   false,
+265 verbose linkStuff   false,
+265 verbose linkStuff   '/Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules' ]
+266 info linkStuff buffers@0.1.1
+267 verbose linkBins buffers@0.1.1
+268 verbose linkMans buffers@0.1.1
+269 verbose rebuildBundles buffers@0.1.1
+270 info install buffers@0.1.1
+271 silly gunzTarPerm extractEntry CHANGELOG.md
+272 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+273 info postinstall buffers@0.1.1
+274 verbose unlock done using /Users/Vasuimports/.npm/_locks/buffers-66effc968c1b7cdb.lock for /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/buffers
+275 info preinstall nan@1.5.1
+276 silly install resolved []
+277 verbose about to build /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+278 info build /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+279 verbose linkStuff [ false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   false,
+279 verbose linkStuff   '/Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules' ]
+280 info linkStuff nan@1.5.1
+281 verbose linkBins nan@1.5.1
+282 verbose linkMans nan@1.5.1
+283 verbose rebuildBundles nan@1.5.1
+284 info install nan@1.5.1
+285 info postinstall nan@1.5.1
+286 verbose unlock done using /Users/Vasuimports/.npm/_locks/nan-bd83228a4d7d37cc.lock for /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv/node_modules/nan
+287 verbose about to build /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+288 info build /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+289 verbose linkStuff [ false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   false,
+289 verbose linkStuff   '/Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules' ]
+290 info linkStuff opencv@1.0.0
+291 verbose linkBins opencv@1.0.0
+292 verbose linkMans opencv@1.0.0
+293 verbose rebuildBundles opencv@1.0.0
+294 verbose rebuildBundles [ 'buffers', 'nan' ]
+295 info install opencv@1.0.0
+296 verbose unsafe-perm in lifecycle true
+297 info opencv@1.0.0 Failed to exec install script
+298 verbose unlock done using /Users/Vasuimports/.npm/_locks/opencv-00213934789a389c.lock for /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+299 verbose stack Error: opencv@1.0.0 install: `node-gyp rebuild`
+299 verbose stack Exit status 1
+299 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:212:16)
+299 verbose stack     at EventEmitter.emit (events.js:98:17)
+299 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:14:12)
+299 verbose stack     at ChildProcess.emit (events.js:98:17)
+299 verbose stack     at maybeClose (child_process.js:766:16)
+299 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:833:5)
+300 verbose pkgid opencv@1.0.0
+301 verbose cwd /Users/Vasuimports/Desktop/PennApps/ardrone-webflight
+302 error Darwin 14.1.0
+303 error argv "node" "/usr/local/bin/npm" "install" "opencv"
+304 error node v0.10.35
+305 error npm  v2.2.0
+306 error code ELIFECYCLE
+307 error opencv@1.0.0 install: `node-gyp rebuild`
+307 error Exit status 1
+308 error Failed at the opencv@1.0.0 install script 'node-gyp rebuild'.
+308 error This is most likely a problem with the opencv package,
+308 error not with npm itself.
+308 error Tell the author that this fails on your system:
+308 error     node-gyp rebuild
+308 error You can get their info via:
+308 error     npm owner ls opencv
+308 error There is likely additional logging output above.
+309 verbose exit [ 1, true ]
+310 verbose unbuild node_modules/opencv
+311 info preuninstall opencv@1.0.0
+312 info uninstall opencv@1.0.0
+313 verbose unbuild rmStuff opencv@1.0.0 from /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules
+314 info postuninstall opencv@1.0.0
+315 verbose gentlyRm vacuuming /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+316 silly gentlyRm purging /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules/opencv
+317 silly gentlyRm quitting because other entries in /Users/Vasuimports/Desktop/PennApps/ardrone-webflight/node_modules
